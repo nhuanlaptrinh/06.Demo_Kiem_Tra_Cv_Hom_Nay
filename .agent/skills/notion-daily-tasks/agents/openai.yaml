@@ -1,0 +1,7 @@
+interface:
+  display_name: "Notion Daily Tasks"
+  short_description: "Check today's tasks from Notion."
+  default_prompt: "Use $notion-daily-tasks to check today's Notion tasks from this project's .env configuration."
+
+policy:
+  allow_implicit_invocation: true
